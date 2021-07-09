@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="refresh" content="1800">
+
+    
+<meta property="og:image" content="https://cdn.glitch.com/3e214981-794a-4e70-8c39-69c2e74acbc7%2Fpi.png?v=1617391864647">
+    
+    <title>Pigeon Tracker NYC</title>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <link rel="icon" 
+      type="image/png" 
+      href="https://cdn.glitch.com/3e214981-794a-4e70-8c39-69c2e74acbc7%2Fpigeon.png?v=1617386397482">
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <div id="mapid"></div>
+    
+    
+    <div id="title">
+Pigeon Tracker NYC
+    </div>
+    
+    <div id="live">
+      <div class="orb">
+        
+      </div>LIVE SCAN
+    </div>
+  </body>
+</html>
